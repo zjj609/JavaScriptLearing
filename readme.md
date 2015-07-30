@@ -22,4 +22,6 @@ JS0208 	Map and Set
 
 JS0209	iterable
 
+JS03 	Function
 
+JS0301 	Higher-order function
