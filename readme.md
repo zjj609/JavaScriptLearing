@@ -12,3 +12,14 @@ JS0203	String
 
 JS0204 	Array
 
+JS0205 	Object
+
+JS0206 	Conditional
+
+JS0207 	Loop
+
+JS0208 	Map and Set
+
+JS0209	iterable
+
+

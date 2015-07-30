@@ -1,0 +1,30 @@
+var xiaoming = {
+    name: '小明',
+    birth: 1990,
+    school: 'No.1 Middle School',
+    height: 1.70,
+    weight: 65,
+    score: null
+};
+
+var xiaoming = {
+    name: '小明'
+};
+xiaoming.age; // return undefined
+xiaoming.age = 18; // add age
+xiaoming.age; // return 18
+delete xiaoming.age; // delete age 
+xiaoming.age; // undefined
+delete xiaoming['name']; // delete name
+xiaoming.name; // undefined
+delete xiaoming.school;
+
+var xiaoming = {
+    name: '小明'
+};
+'grade' in xiaoming; // false
+'name' in xiaoming; // true
+'toString' in xiaoming; //true
+xiaoming.hasOwnProperty('name'); // true
+xiaoming.hasOwnProperty('toString') // false
+
