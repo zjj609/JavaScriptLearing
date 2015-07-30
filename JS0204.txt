@@ -1,0 +1,57 @@
+Array
+
+indexOf()
+var arr = [10, 20, '30', 'xyz'];
+arr.indexOf(10); 	// 0
+arr.indexOf(20); 	// 1
+arr.indexOf(30); 	// -1
+arr.indexOf('30');  // 2
+
+slice()
+var arr = ['A', 'B', 'C', 'D', 'E', 'F', 'G'];
+arr.slice(0, 3); // ['A', 'B', 'C']
+arr.slice(3); 	 // ['D', 'E', 'F', 'G']
+
+push() and pop()
+var arr = [1, 2];
+arr.push('A', 'B'); // return the new length of array arr :4
+arr; // [1, 2, 'A', 'B']
+arr.pop(); // return 'B'
+arr; // [1, 2, 'A']
+arr.pop(); arr.pop(); arr.pop(); // pop 3 times
+arr; // []
+arr.pop(); // return undefined
+arr; // []
+
+sort()
+var arr = ['B', 'C', 'A'];
+arr.sort();
+arr; // ['A', 'B', 'C']
+
+reverse()
+var arr = ['one', 'two', 'three'];
+arr.reverse(); 
+arr; // ['three', 'two', 'one']
+
+splice()
+var arr = ['Microsoft', 'Apple', 'Yahoo', 'AOL', 'Excite', 'Oracle'];
+arr.splice(2, 3, 'Google', 'Facebook'); ['Yahoo', 'AOL', 'Excite']
+arr; // ['Microsoft', 'Apple', 'Google', 'Facebook', 'Oracle']
+arr.splice(2, 2); // ['Google', 'Facebook']
+arr; // ['Microsoft', 'Apple', 'Oracle']
+arr.splice(2, 0, 'Google', 'Facebook'); // []
+arr; // ['Microsoft', 'Apple', 'Google', 'Facebook', 'Oracle']
+
+concat()
+var arr = ['A', 'B', 'C'];
+var added = arr.concat([1, 2, 3]);
+added; // ['A', 'B', 'C', 1, 2, 3]
+arr; // ['A', 'B', 'C']
+
+join()
+var arr = ['A', 'B', 'C', 1, 2, 3];
+arr.join('-'); // 'A-B-C-1-2-3'
+
+Multidimensional arrays
+var arr = [[1, 2, 3], [400, 500, 600], '-'];
+

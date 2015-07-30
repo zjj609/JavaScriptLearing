@@ -1,0 +1,20 @@
+String
+
+toUpperCase()
+var s = 'Hello';
+s.toUpperCase(); // return 'HELLO'
+
+toLowerCase()
+var s = 'Hello';
+var lower = s.toLowerCase(); // return 'hello' to lower
+
+indexOf()
+var s = 'hello, world';
+s.indexOf('world'); // return 7
+s.indexOf('World'); // can't find the substring, return -1
+
+substring() 
+var s = 'hello, world'
+s.substring(0, 5); // 'hello'
+s.substring(7); // 'world'
+
