@@ -25,3 +25,8 @@ JS0209	iterable
 JS03 	Function
 
 JS0301 	Higher-order function
+
+JS0302 	Closure and Generator
+
+JS04 	Standard Objects
+
